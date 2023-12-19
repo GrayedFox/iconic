@@ -1,0 +1,20 @@
+{
+  "name": "mockmock",
+  "version": "0.0.1",
+  "description": "Record, replay, search, stub, and mock test data.",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --rootDir ./mock-mock/tests"
+  },
+  "keywords": [
+    "mock",
+    "test",
+    "stub"
+  ],
+  "author": "Che Fisher",
+  "license": "MIT"
+}

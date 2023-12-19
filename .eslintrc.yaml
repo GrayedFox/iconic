@@ -1,0 +1,24 @@
+---
+root: true
+parser: "@typescript-eslint/parser"
+parserOptions:
+  sourceType: module
+env:
+  browser: true
+  node: true
+plugins:
+- prettier
+- cypress
+- simple-import-sort
+- "@typescript-eslint"
+extends:
+- eslint:recommended
+- plugin:cypress/recommended
+- plugin:@typescript-eslint/recommended
+rules:
+  prettier/prettier: error
+  simple-import-sort/imports: error
+  simple-import-sort/exports: error
+ignorePatterns:
+- node_modules/
+- mockmock/
